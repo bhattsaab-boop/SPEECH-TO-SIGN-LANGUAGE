@@ -1,0 +1,64 @@
+# ---- Secrets: NEVER commit ----
+kaggle.json
+access_token
+.kaggle/
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials*.json
+client_secret*.json
+token.json
+
+# ---- Dataset & generated data (too big / not ours to redistribute) ----
+data/
+dataset/
+datasets/
+Indian/
+isl/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.npz
+*.npy
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+!docs/**/*.png
+!docs/**/*.jpg
+
+# ---- Audio recordings ----
+*.wav
+*.mp3
+*.m4a
+
+# ---- Trained models (large; share via Drive/Releases instead) ----
+*.h5
+*.keras
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.task
+output/
+
+# ---- Python / Jupyter / OS junk ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Arduino / PlatformIO build output ----
+.pio/
+build/

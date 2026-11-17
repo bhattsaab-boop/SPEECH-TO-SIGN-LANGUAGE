@@ -1,0 +1,12 @@
+# Colab already has most of these; for running locally:
+mediapipe
+opencv-python
+numpy
+scikit-learn
+tensorflow
+matplotlib
+tqdm
+joblib
+transformers
+torch
+kagglehub>=0.4.1
